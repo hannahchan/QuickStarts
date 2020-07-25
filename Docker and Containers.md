@@ -110,19 +110,19 @@ On a Docker swarm, containers can be orchestrated across a swarm when deployed a
 
 ### Examples ###
 
-Creates a service named `helloworld` with `1` running task using the latest `alpine` image running the command `ping docker.com`.
+Creates a service named `myservice` with `1` running task using the latest `alpine` image running the command `ping docker.com`.
 
-    docker service create --replicas 1 --name helloworld alpine ping docker.com
+    docker service create --replicas 1 --name myservice alpine ping docker.com
 
-Lists the tasks running in the service `helloworld`.
+Lists the tasks running in the service `myservice`.
 
-    docker service ps helloworld
+    docker service ps myservice
 
-Scales the service `helloworld` to `2` running tasks.
+Scales the service `myservice` to `2` running tasks.
 
-    docker service scale helloworld=2
+    docker service scale myservice=2
 
-Deletes all services.
+Deletes all services in a swarm.
 
     docker service rm $(docker service ls -q)
 
