@@ -66,9 +66,20 @@ You could then use the command `ssh example` to connect to your remote server wi
 
 ## References ##
 
-- SSH Protocol - https://www.ssh.com/ssh/protocol
-- ssh-copy-id - https://www.ssh.com/ssh/copy-id
-- ssh-agent - https://www.ssh.com/ssh/agent
-- Using an ssh-agent, or how to type your ssh password once, safely - http://rabexc.org/posts/using-ssh-agent
-- The pitfalls of using ssh-agent, or how to use an agent safely - http://rabexc.org/posts/pitfalls-of-ssh-agents
-- Simplify Your Life With an SSH Config File - http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file
+1. SSH Protocol
+	- https://www.ssh.com/ssh/protocol
+
+2. ssh-copy-id
+	- https://www.ssh.com/ssh/copy-id
+
+3. ssh-agent
+	- https://www.ssh.com/ssh/agent
+
+4. Using an ssh-agent, or how to type your ssh password once, safely
+	- http://rabexc.org/posts/using-ssh-agent
+
+5. The pitfalls of using ssh-agent, or how to use an agent safely
+	- http://rabexc.org/posts/pitfalls-of-ssh-agents
+
+6. Simplify Your Life With an SSH Config File
+	- http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file
