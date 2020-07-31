@@ -1,14 +1,14 @@
-# Docker and Containers #
+# Docker and Containers
 
 Containers are a way to package software in a format that can run isolated on a shared operating system. Unlike Virtual Machines (VMs), containers do not bundle a full operating system - only the libraries and settings required to make the software work are needed. This makes for efficient, lightweight, self-contained systems and guarantees that software will always run the same, regardless of where it’s deployed.
 
 Docker is a software platform for running containers.
 
-## Get Docker ##
+## Get Docker
 
 Docker can be installed on operating system platforms such as Linux, Mac and Windows. To download Docker and get installation instructions for your platform, head over to https://www.docker.com/get-started.
 
-## Docker Hosts and Engines ##
+## Docker Hosts and Engines
 
 A Docker host is an instance with an operating system such Linux, Mac or Windows that has the Docker engine installed. The Docker engine is typically referred to as just Docker.
 
@@ -22,16 +22,16 @@ To get system-wide information about your Docker host, run;
 
     docker info
 
-## Docker Command Line (CLI) Reference ##
+## Docker Command Line (CLI) Reference
 
 All Docker client commands start with docker. For a complete command line reference check out, https://docs.docker.com/engine/reference/commandline/docker/.
 
-## Docker Images ##
+## Docker Images
 
 Docker images are stored on your Docker Host and if they're not, Docker will attempt to pull these images from a container registry such as Docker Hub, the default container registry. You can also build your own images from a `Dockerfile`. For more information about building images, check out https://docs.docker.com/engine/reference/builder/.
 
 | Command            | Description                                                   |
-|:-------------------|:--------------------------------------------------------------|
+| :----------------- | :------------------------------------------------------------ |
 | docker image ls    | Lists images on the Docker host.                              |
 | docker image pull  | Pulls an image from a container registry to the Docker host.  |
 | docker image push  | Pushes an image from the Docker host to a container registry. |
@@ -39,7 +39,7 @@ Docker images are stored on your Docker Host and if they're not, Docker will att
 | docker image tag   | Tags an image.                                                |
 | docker image build | Builds an image from a `Dockerfile`.                          |
 
-### Examples ###
+### Examples
 
 Downloads the `hello-world` image from the container registry to the Docker host.
 
@@ -57,14 +57,14 @@ Deletes all images on the Docker host.
 
     docker image rm $(docker image ls -q)
 
-## Docker Containers ##
+## Docker Containers
 
 Docker containers are instantiated from Docker images.
 
 To detach from a running container (must have been started with the `-it` flag), press `Ctrl` + `P` + `Q`. To reattach to the running container, use the command docker container attach.
 
 | Command                | Description                                                         |
-|:-----------------------|:--------------------------------------------------------------------|
+| :--------------------- | :------------------------------------------------------------------ |
 | docker container run   | Starts a new container.                                             |
 | docker container ls    | Lists running containers. Add the `-a` flag to show all containers. |
 | docker container exec  | Runs a command in a running container.                              |
@@ -72,7 +72,7 @@ To detach from a running container (must have been started with the `-it` flag),
 | docker container stop  | Stops a running container.                                          |
 | docker container rm    | Removes a container.                                                |
 
-### Examples ###
+### Examples
 
 Launches a new container using the `hello-world` image.
 
@@ -94,12 +94,12 @@ Deletes all containers on the Docker host.
 
     docker container rm $(docker container ls -aq)
 
-## Docker Services ##
+## Docker Services
 
 On a Docker swarm, containers can be orchestrated across a swarm when deployed as a service. They allow us to do things like scale an application and reconcile actual state with desired state for container deployments across a swarm. For more information about Docker services, checkout out https://docs.docker.com/engine/swarm/how-swarm-mode-works/services/.
 
 | Command                 | Description                                   |
-|:------------------------|:----------------------------------------------|
+| :---------------------- | :-------------------------------------------- |
 | docker service create   | Creates a new service.                        |
 | docker service ls       | Lists services.                               |
 | docker service ps       | Lists tasks in a service.                     |
@@ -108,7 +108,7 @@ On a Docker swarm, containers can be orchestrated across a swarm when deployed a
 | docker service rollback | Reverts changes to a service's configuration. |
 | docker service scale    | Scales one or more replicated services.       |
 
-### Examples ###
+### Examples
 
 Creates a service named `myservice` with `1` running task using the latest `alpine` image running the command `ping docker.com`.
 
@@ -126,36 +126,42 @@ Deletes all services in a swarm.
 
     docker service rm $(docker service ls -q)
 
-## Docker Stacks ##
+## Docker Stacks
 
 Stacks essentially define applications that consists of multiple Docker services. Stacks are deployed from a Docker Compose YAML file. For more information Docker Compose YAML files, check out https://docs.docker.com/compose/overview/.
 
 | Command               | Description                                     |
-|:----------------------|:------------------------------------------------|
+| :-------------------- | :---------------------------------------------- |
 | docker stack deploy   | Deploys a new stack or updates an existing one. |
 | docker stack ls       | Lists stacks.                                   |
 | docker stack ps       | Lists tasks in a stack.                         |
 | docker stack rm       | Removes one or more stacks.                     |
 | docker stack services | Lists services in a stack.                      |
 
-## Recommended Pluralsight Courses ##
+## Recommended Pluralsight Courses
 
 1. Docker and Containers: The Big Picture by Nigel Poulton
-    - https://app.pluralsight.com/library/courses/docker-containers-big-picture/
+
+   - https://app.pluralsight.com/library/courses/docker-containers-big-picture/
 
 2. Docker and Kubernetes: The Big Picture by Nigel Poulton
-    - https://app.pluralsight.com/library/courses/docker-kubernetes-big-picture/
+
+   - https://app.pluralsight.com/library/courses/docker-kubernetes-big-picture/
 
 3. Getting Started with Docker by Nigel Poulton
-    - https://app.pluralsight.com/library/courses/docker-getting-started/
+
+   - https://app.pluralsight.com/library/courses/docker-getting-started/
 
 4. Docker Deep Dive by Nigel Poulton
-    - https://app.pluralsight.com/library/courses/docker-deep-dive-update/
+
+   - https://app.pluralsight.com/library/courses/docker-deep-dive-update/
 
 5. Docker Networking by Nigel Poulton
-    - https://app.pluralsight.com/library/courses/docker-networking/
 
-## References ##
+   - https://app.pluralsight.com/library/courses/docker-networking/
+
+## References
 
 - What is a Container?
-    - https://www.docker.com/resources/what-container
+
+  - https://www.docker.com/resources/what-container
