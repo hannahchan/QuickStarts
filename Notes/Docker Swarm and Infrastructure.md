@@ -40,7 +40,7 @@ In Swarm Mode, individual Docker hosts become a node in cluster called a swarm.
 
 For containers to talk to anything, they need to be connected to a network. By default, an installation of Docker comes with a number of networks created for you. You can create and manage networks using the docker network command.
 
-Networks in Docker have a driver and scope. Drivers essentially dictate the type of a network and the scope describes whether the network is available to the local host or swarm. For more information, check out https://docs.docker.com/network/.
+Networks in Docker have a driver and scope. Drivers essentially dictate the type of a network and the scope describes whether the network is available to the local host or swarm. For more information, check out <https://docs.docker.com/network/>.
 
 | Command                   | Description                                            |
 | :------------------------ | :----------------------------------------------------- |
@@ -54,7 +54,7 @@ Networks in Docker have a driver and scope. Drivers essentially dictate the type
 
 ## Docker Volumes
 
-One way to get data in and out of containers is to mount volumes to them. A volume can be a folder on the local file system of a Docker host or a remote file system on a network share or storage array. To learn more, check out https://docs.docker.com/storage/volumes/ and https://docs.docker.com/storage/bind-mounts/.
+One way to get data in and out of containers is to mount volumes to them. A volume can be a folder on the local file system of a Docker host or a remote file system on a network share or storage array. To learn more, check out <https://docs.docker.com/storage/volumes/> and <https://docs.docker.com/storage/bind-mounts/>.
 
 | Command               | Description                                           |
 | :-------------------- | :---------------------------------------------------- |
@@ -66,7 +66,7 @@ One way to get data in and out of containers is to mount volumes to them. A volu
 
 ## Docker Secrets
 
-A secret is a blob of data, such as a password, SSH private key, SSL certificate, or another piece of data that should not be transmitted over a network or stored unencrypted. In a Docker swarm you can centrally manage these secrets and securely transmit them to only those containers that need access to them. To learn more, check out https://docs.docker.com/engine/swarm/secrets/.
+A secret is a blob of data, such as a password, SSH private key, SSL certificate, or another piece of data that should not be transmitted over a network or stored unencrypted. In a Docker swarm you can centrally manage these secrets and securely transmit them to only those containers that need access to them. To learn more, check out <https://docs.docker.com/engine/swarm/secrets/>.
 
 | Command               | Description                                           |
 | :-------------------- | :---------------------------------------------------- |
@@ -79,20 +79,20 @@ A secret is a blob of data, such as a password, SSH private key, SSL certificate
 
 1. Docker and Containers: The Big Picture by Nigel Poulton
 
-   - https://app.pluralsight.com/library/courses/docker-containers-big-picture/
+   - <https://app.pluralsight.com/library/courses/docker-containers-big-picture/>
 
 2. Docker and Kubernetes: The Big Picture by Nigel Poulton
 
-   - https://app.pluralsight.com/library/courses/docker-kubernetes-big-picture/
+   - <https://app.pluralsight.com/library/courses/docker-kubernetes-big-picture/>
 
 3. Getting Started with Docker by Nigel Poulton
 
-   - https://app.pluralsight.com/library/courses/docker-getting-started/
+   - <https://app.pluralsight.com/library/courses/docker-getting-started/>
 
 4. Docker Deep Dive by Nigel Poulton
 
-   - https://app.pluralsight.com/library/courses/docker-deep-dive-update/
+   - <https://app.pluralsight.com/library/courses/docker-deep-dive-update/>
 
 5. Docker Networking by Nigel Poulton
 
-   - https://app.pluralsight.com/library/courses/docker-networking/
+   - <https://app.pluralsight.com/library/courses/docker-networking/>

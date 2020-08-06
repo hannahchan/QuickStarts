@@ -6,7 +6,7 @@ Docker is a software platform for running containers.
 
 ## Get Docker
 
-Docker can be installed on operating system platforms such as Linux, Mac and Windows. To download Docker and get installation instructions for your platform, head over to https://www.docker.com/get-started.
+Docker can be installed on operating system platforms such as Linux, Mac and Windows. To download Docker and get installation instructions for your platform, head over to <https://www.docker.com/get-started>.
 
 ## Docker Hosts and Engines
 
@@ -24,11 +24,11 @@ To get system-wide information about your Docker host, run;
 
 ## Docker Command Line (CLI) Reference
 
-All Docker client commands start with docker. For a complete command line reference check out, https://docs.docker.com/engine/reference/commandline/docker/.
+All Docker client commands start with docker. For a complete command line reference check out, <https://docs.docker.com/engine/reference/commandline/docker/>.
 
 ## Docker Images
 
-Docker images are stored on your Docker Host and if they're not, Docker will attempt to pull these images from a container registry such as Docker Hub, the default container registry. You can also build your own images from a `Dockerfile`. For more information about building images, check out https://docs.docker.com/engine/reference/builder/.
+Docker images are stored on your Docker Host and if they're not, Docker will attempt to pull these images from a container registry such as Docker Hub, the default container registry. You can also build your own images from a `Dockerfile`. For more information about building images, check out <https://docs.docker.com/engine/reference/builder/>.
 
 | Command            | Description                                                   |
 | :----------------- | :------------------------------------------------------------ |
@@ -96,7 +96,7 @@ Deletes all containers on the Docker host.
 
 ## Docker Services
 
-On a Docker swarm, containers can be orchestrated across a swarm when deployed as a service. They allow us to do things like scale an application and reconcile actual state with desired state for container deployments across a swarm. For more information about Docker services, checkout out https://docs.docker.com/engine/swarm/how-swarm-mode-works/services/.
+On a Docker swarm, containers can be orchestrated across a swarm when deployed as a service. They allow us to do things like scale an application and reconcile actual state with desired state for container deployments across a swarm. For more information about Docker services, checkout out <https://docs.docker.com/engine/swarm/how-swarm-mode-works/services/>.
 
 | Command                 | Description                                   |
 | :---------------------- | :-------------------------------------------- |
@@ -128,7 +128,7 @@ Deletes all services in a swarm.
 
 ## Docker Stacks
 
-Stacks essentially define applications that consists of multiple Docker services. Stacks are deployed from a Docker Compose YAML file. For more information Docker Compose YAML files, check out https://docs.docker.com/compose/overview/.
+Stacks essentially define applications that consists of multiple Docker services. Stacks are deployed from a Docker Compose YAML file. For more information Docker Compose YAML files, check out <https://docs.docker.com/compose/overview/>.
 
 | Command               | Description                                     |
 | :-------------------- | :---------------------------------------------- |
@@ -142,26 +142,26 @@ Stacks essentially define applications that consists of multiple Docker services
 
 1. Docker and Containers: The Big Picture by Nigel Poulton
 
-   - https://app.pluralsight.com/library/courses/docker-containers-big-picture/
+   - <https://app.pluralsight.com/library/courses/docker-containers-big-picture/>
 
 2. Docker and Kubernetes: The Big Picture by Nigel Poulton
 
-   - https://app.pluralsight.com/library/courses/docker-kubernetes-big-picture/
+   - <https://app.pluralsight.com/library/courses/docker-kubernetes-big-picture/>
 
 3. Getting Started with Docker by Nigel Poulton
 
-   - https://app.pluralsight.com/library/courses/docker-getting-started/
+   - <https://app.pluralsight.com/library/courses/docker-getting-started/>
 
 4. Docker Deep Dive by Nigel Poulton
 
-   - https://app.pluralsight.com/library/courses/docker-deep-dive-update/
+   - <https://app.pluralsight.com/library/courses/docker-deep-dive-update/>
 
 5. Docker Networking by Nigel Poulton
 
-   - https://app.pluralsight.com/library/courses/docker-networking/
+   - <https://app.pluralsight.com/library/courses/docker-networking/>
 
 ## References
 
 - What is a Container?
 
-  - https://www.docker.com/resources/what-container
+  - <https://www.docker.com/resources/what-container>

@@ -2,7 +2,7 @@
 
 Homebrew is a package manager for macOS. For instructions on how to install, head over to;
 
-- https://brew.sh/
+- <https://brew.sh/>
 
 ## Taps
 

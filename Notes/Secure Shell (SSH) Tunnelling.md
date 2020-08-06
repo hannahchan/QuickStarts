@@ -45,16 +45,16 @@ When using SSH port forwarding, you may find the following options useful.
 
 1. SSH tunnel
 
-   - https://www.ssh.com/ssh/tunneling/
+   - <https://www.ssh.com/ssh/tunneling/>
 
 2. How to Set up SSH Tunneling (Port Forwarding)
 
-   - https://linuxize.com/post/how-to-setup-ssh-tunneling/
+   - <https://linuxize.com/post/how-to-setup-ssh-tunneling/>
 
 3. ssh(1) - OpenBSD manual pages
 
-   - https://man.openbsd.org/ssh
+   - <https://man.openbsd.org/ssh>
 
 4. SSH FAQ: TCP port forwarding and the -g (GatewayPorts) option
 
-   - http://www.snailbook.com/faq/gatewayports.auto.html
+   - <http://www.snailbook.com/faq/gatewayports.auto.html>
