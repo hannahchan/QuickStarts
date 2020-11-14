@@ -64,6 +64,12 @@ The SSH config file (`~/.ssh/config`) is a text file you can use to create short
 
 You could then use the command `ssh example` to connect to your remote server with all the settings you specified in the configuration file. The SSH config file is often used to help people remember all the settings they used for their various SSH connections.
 
+## Proxy Jumping
+
+Sometimes the remote server you want to log into is behind one or more proxy hosts. You can use the `-J` option to specify all the proxy hosts that you need to pass through separated by a comma.
+
+    ssh -J proxy1,proxy2,... destination
+
 ## References
 
 1. SSH Protocol
@@ -89,3 +95,11 @@ You could then use the command `ssh example` to connect to your remote server wi
 6. Simplify Your Life With an SSH Config File
 
    - <http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file>
+
+7. How To Configure Custom Connection Options for your SSH Client
+
+    - <https://www.digitalocean.com/community/tutorials/how-to-configure-custom-connection-options-for-your-ssh-client>
+
+8. SSH to remote hosts though a proxy or bastion with ProxyJump
+
+    - <https://www.redhat.com/sysadmin/ssh-proxy-bastion-proxyjump>
