@@ -98,8 +98,8 @@ Sometimes the remote server you want to log into is behind one or more proxy hos
 
 7. How To Configure Custom Connection Options for your SSH Client
 
-    - <https://www.digitalocean.com/community/tutorials/how-to-configure-custom-connection-options-for-your-ssh-client>
+   - <https://www.digitalocean.com/community/tutorials/how-to-configure-custom-connection-options-for-your-ssh-client>
 
 8. SSH to remote hosts though a proxy or bastion with ProxyJump
 
-    - <https://www.redhat.com/sysadmin/ssh-proxy-bastion-proxyjump>
+   - <https://www.redhat.com/sysadmin/ssh-proxy-bastion-proxyjump>
