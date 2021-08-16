@@ -10,7 +10,7 @@ Before getting started programming in Python, you may want to consider which dis
 2. Discover and download Python packages
 3. Manage Python virtual environments
 
-The official distribution is CPython which can be downloaded from <https://www.python.org>. This guide will only cover the official distribution.
+The official distribution is CPython which can be downloaded from <https://www.python.org>. Another popular distribution is [Anaconda](https://www.anaconda.com/). This guide will only cover the official distribution.
 
 ## Interpreters
 
@@ -18,7 +18,7 @@ Python code is read and executed by an interpreter which can be provided interac
 
     python HelloWorld.py
 
-When working with different Python projects, you may encounter a need to switch between different version of the Python interpreter. How you do this will depend on the distribution of Python you are using. [`pyenv`](https://github.com/pyenv/pyenv) is an example of a tool you could use to do this. There is also [`pyenv-win`](https://github.com/pyenv-win/pyenv-win) if you are using Windows.
+When working with different Python projects, you may encounter a need to switch between different version of the Python interpreter. How you do this will depend on the distribution of Python you are using. [`pyenv`](https://github.com/pyenv/pyenv) is an example of a community tool you could use to do this for macOS and Unix like operating systems. On Windows there is [`py`](https://docs.python.org/3/using/windows.html#launcher) launcher.
 
 ## Package Management
 
