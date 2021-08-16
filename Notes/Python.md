@@ -22,7 +22,7 @@ When working with different Python projects, you may encounter a need to switch 
 
 ## Package Management
 
-`pip` is the default package manager in Python that installs packages from the [Python Package Index (PyPi)](https://pypi.org). To install a package, you can run one of the following;
+`pip` is the default package manager in Python that installs packages from the [Python Package Index (PyPI)](https://pypi.org). To install a package, you can run one of the following;
 
     python -m pip install SomePackage               # Latest Version
     python -m pip install SomePackage==1.0.4        # Specific Version
