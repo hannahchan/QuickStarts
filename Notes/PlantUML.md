@@ -21,15 +21,21 @@ It is also possible to run your own PlantUML server. For information on how to d
 
 <https://github.com/plantuml/plantuml-server>.
 
-## Command-line
+## Command-line and Graphical User Interface
 
 PlantUML can also be run from the command-line. To do this, you will need the following prerequisites installed on your local machine;
 
 - Java
 - [Graphviz](https://graphviz.org)
 
-PlantUML is distributed as a Java JAR file which you can download from the [PlantUML website](https://plantuml.com/download). The following is an example of how to run PlantUML from the command-line;
+PlantUML is distributed as a Java JAR file which you can download from <https://plantuml.com/download>.
+
+The following is an example of how to run PlantUML from the command-line;
 
     java -jar plantuml.jar MyDiagram.txt
 
 This will output a file called `MyDiagram.png` in the same directory as the file `MyDiagram.txt`.
+
+PlantUML also has a [Graphical User Interface (GUI)](https://plantuml.com/gui) which you can open by running;
+
+    java -jar plantuml.jar -gui
