@@ -38,7 +38,7 @@ In Swarm Mode, individual Docker hosts become a node in cluster called a swarm.
 
 ## Docker Networking
 
-For containers to talk to anything, they need to be connected to a network. By default, an installation of Docker comes with a number of networks created for you. You can create and manage networks using the docker network command.
+For containers to talk to anything, they need to be connected to a network. By default, an installation of Docker comes with a number of networks created for you. You can create and manage networks using the `docker network` command.
 
 Networks in Docker have a driver and scope. Drivers essentially dictate the type of a network and the scope describes whether the network is available to the local host or swarm. For more information, check out <https://docs.docker.com/network/>.
 
